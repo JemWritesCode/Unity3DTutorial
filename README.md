@@ -1,2 +1,4 @@
 # Unity3DTutorial
-Working on the Unity 3D Game Dev tutorial from gavedev.tv
+Work from following the tutorials from [Unity 3D Game Dev tutorial from gavedev.tv.](https://www.udemy.com/course/unitycourse2/)
+
+
