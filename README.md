@@ -9,6 +9,8 @@ Unity UI Basics + Prefabs
 
 **Obstacle Course**
 
+[Video of the game](https://www.youtube.com/watch?v=b9huAC6_0MI)
+
 Game Design, Movement, Collision, Camera
 * Decide on the aim of player experience. Careful? Clever? Nimble/Agile?
 * Decide on Core Mechanic
