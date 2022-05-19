@@ -9,6 +9,7 @@ Unity UI Basics + Prefabs
 
 **Obstacle Course**
 
+![Alien Obstacle Course](https://github.com/JemCopeCodes/Unity3DTutorial/blob/main/Screenshots/cow%20thumbnail.png?raw=true)
 [Video of the game](https://www.youtube.com/watch?v=b9huAC6_0MI)
 
 Game Design, Movement, Collision, Camera
