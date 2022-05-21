@@ -6,6 +6,8 @@ public class Movement : MonoBehaviour
 {
 
     Rigidbody rb;
+    [SerializeField] float rocketThrust = 1f;
+    [SerializeField] float rotationThrust = 1f;
 
     // Start is called before the first frame update
     void Start()
@@ -24,20 +26,26 @@ public class Movement : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            rb.AddRelativeForce(Vector3.up);
+            rb.AddRelativeForce(Vector3.up * rocketThrust * Time.deltaTime);
         }
     }
     void ProcessRotation()
     {
         if (Input.GetKey(KeyCode.A))
         {
-            Debug.Log("Pressed Left-A");
+            ApplyRotation(rotationThrust);
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            Debug.Log("Pressed Right - D");
+            ApplyRotation(-rotationThrust);
         }
     }
 
-   
+    void ApplyRotation(float rotationThisFrame)
+    {
+        rb.freezeRotation = true; // freezing rotation so we can manually rotate
+        transform.Rotate(Vector3.forward * rotationThisFrame * Time.deltaTime);
+        rb.freezeRotation = false; //unfreeze so physics system can take over again
+    }
+
 }
