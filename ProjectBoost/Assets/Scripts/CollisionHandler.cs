@@ -6,8 +6,11 @@ public class CollisionHandler : MonoBehaviour
 {
 
     [SerializeField] float levelLoadDelay;
-    [SerializeField] AudioClip rocketCrash;
-    [SerializeField] AudioClip successLanding;
+    [SerializeField] AudioClip crashSFX;
+    [SerializeField] AudioClip successSFX;
+
+    [SerializeField] ParticleSystem crashParticles;
+    [SerializeField] ParticleSystem successParticles;
 
     AudioSource audioSource;
 
@@ -16,6 +19,32 @@ public class CollisionHandler : MonoBehaviour
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
+    }
+
+    private void Update()
+    {
+        ProcessCheats();
+    }
+
+    private void ProcessCheats()
+    {
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LoadNextLevel();
+            Debug.Log("Skipped Level");
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            if (!isTransitioning)
+            {
+                isTransitioning = true;
+                Debug.Log("Cheat: Collisions disabled.");
+            } else
+            {
+                isTransitioning = false;
+                Debug.Log("Cheat: Collisions enabled.");
+            }
+        }
     }
     private void OnCollisionEnter(Collision collision)
     {
@@ -35,21 +64,22 @@ public class CollisionHandler : MonoBehaviour
 
     private void StartSuccessSequence()
     {
-        // todo add particle effect on finish
         isTransitioning = true;
         audioSource.Stop();
         GetComponent<Movement>().enabled = false;
-        audioSource.PlayOneShot(successLanding);
+        audioSource.PlayOneShot(successSFX);
+        successParticles.Play();
         Invoke("LoadNextLevel", levelLoadDelay);
+        
     }
 
     void StartCrashSequence()
     {
-        // todo add particle effect on crash
         isTransitioning = true;
         audioSource.Stop();
         GetComponent<Movement>().enabled = false;
-        audioSource.PlayOneShot(rocketCrash);
+        audioSource.PlayOneShot(crashSFX);
+        crashParticles.Play();
         Invoke("ReloadLevel", levelLoadDelay);
     }
 
@@ -59,7 +89,7 @@ public class CollisionHandler : MonoBehaviour
         SceneManager.LoadScene(currentSceneIndex);
     }
 
-    void LoadNextLevel()
+    public void LoadNextLevel()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         int nextSceneIndex = currentSceneIndex + 1;
