@@ -156,7 +156,7 @@ Transform:
   - {fileID: 1515902865}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 7.082725, y: 337.5495, z: 359.9942}
+  m_LocalEulerAnglesHint: {x: 0, y: 359.681, z: 0}
 --- !u!95 &522750089
 Animator:
   serializedVersion: 4
@@ -383,7 +383,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
