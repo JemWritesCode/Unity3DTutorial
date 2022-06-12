@@ -732,6 +732,7 @@ GameObject:
   - component: {fileID: 8398393378137052528}
   - component: {fileID: 4837655254358366933}
   - component: {fileID: 7261555887914216991}
+  - component: {fileID: 1515902866}
   m_Layer: 0
   m_Name: StarSparrow16
   m_TagString: Untagged
@@ -783,7 +784,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 14cc321f15ae44a4d8ead98d7550ee77, type: 2}
+  - {fileID: 2100000, guid: d215bd3bb42e9764da6cb4f2e19fe1fc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -805,3 +806,23 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1515902866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9207265202862182346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72b1ea501844ab343bd6bc3ef25480c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlSpeed: 30
+  xRange: 11
+  yRange: 6
+  positionPitchFactor: -2
+  controlPitchFactor: -10
+  positionYawFactor: -1
+  controlRollFactor: -2
+  rotationFactor: 1
