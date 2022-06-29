@@ -27,7 +27,7 @@ MonoBehaviour:
     showMarkers: 1
     showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: 23378
+    lastInlineCurveDataID: 23408
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
@@ -63,7 +63,7 @@ MonoBehaviour:
     showMarkers: 1
     showInlineCurves: 1
     inlineAnimationCurveHeight: 100
-    lastInlineCurveDataID: 23376
+    lastInlineCurveDataID: 23406
     inlineCurvesState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: d87b4861
