@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 17
+  controlID: 51
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -225,7 +225,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 52
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 103
+  controlID: 53
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -472,22 +472,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Particles
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Particles
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Jem\Documents\GitHub\Unity3DTutorial\ArgonAssault
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: d45c0000
-    m_LastClickedID: 23764
-    m_ExpandedIDs: 00000000ae5c0000b05c0000b65c000000ca9a3b
+    m_SelectedIDs: d65c0000
+    m_LastClickedID: 23766
+    m_ExpandedIDs: 00000000ae5c0000b05c0000bc5c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -602,11 +602,11 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 316
+    m_CachedPref: 204
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 972
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -645,7 +645,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: aaf5ffffb6f5ffffb8f5ffff22fbffff
+      m_ExpandedIDs: 22fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -894,9 +894,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 114.44847, y: 36.832897, z: 51.904034}
+    m_Target: {x: 102.743996, y: 0.17014241, z: 75.69394}
     speed: 2
-    m_Value: {x: 114.44847, y: 36.832897, z: 51.904034}
+    m_Value: {x: 102.743996, y: 0.17014241, z: 75.69394}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -943,13 +943,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.048255045, y: 0.88378555, z: -0.45641395, w: 0.09337417}
+    m_Target: {x: 0.051103838, y: 0.92915165, z: -0.14015739, w: 0.33892176}
     speed: 2
-    m_Value: {x: 0.04824448, y: 0.88359207, z: -0.45631403, w: 0.093353726}
+    m_Value: {x: 0.051092435, y: 0.92894435, z: -0.14012611, w: 0.33884615}
   m_Size:
-    m_Target: 26.247435
+    m_Target: 28.497408
     speed: 2
-    m_Value: 26.247435
+    m_Value: 28.497408
   m_Ortho:
     m_Target: 0
     speed: 2
