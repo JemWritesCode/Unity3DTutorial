@@ -292,6 +292,7 @@ MonoBehaviour:
   deathVFX: {fileID: 5913231687247800477, guid: c8e92322d30ce5d44b4000895d3007db, type: 3}
   parent: {fileID: 352711987}
   pointsToIncrease: 1
+  hitPoints: 5
 --- !u!95 &704008472
 Animator:
   serializedVersion: 4
@@ -383,7 +384,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 704008470}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118.8, y: 9.15, z: 62.5}
+  m_LocalPosition: {x: 519, y: 9.15, z: 70.6}
   m_LocalScale: {x: 3.9699, y: 3.9699, z: 3.9699}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -520,6 +521,7 @@ MonoBehaviour:
   deathVFX: {fileID: 5913231687247800477, guid: c8e92322d30ce5d44b4000895d3007db, type: 3}
   parent: {fileID: 352711987}
   pointsToIncrease: 1
+  hitPoints: 5
 --- !u!95 &845964179
 Animator:
   serializedVersion: 4
@@ -611,7 +613,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 845964177}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118.8, y: 9.15, z: 52.3}
+  m_LocalPosition: {x: 191.2, y: 52.3, z: 382.7}
   m_LocalScale: {x: 3.9699, y: 3.9699, z: 3.9699}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -710,7 +712,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1031317111}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 195.8, y: 12.3, z: 41.9}
+  m_LocalPosition: {x: 215.2, y: 12.3, z: 51.1}
   m_LocalScale: {x: 12.12396, y: 12.12396, z: 12.12396}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -732,6 +734,7 @@ MonoBehaviour:
   deathVFX: {fileID: 5913231687247800477, guid: c8e92322d30ce5d44b4000895d3007db, type: 3}
   parent: {fileID: 352711987}
   pointsToIncrease: 2
+  hitPoints: 15
 --- !u!1 &1219755429
 GameObject:
   m_ObjectHideFlags: 0
@@ -897,7 +900,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1323870479}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118.8, y: 9.15, z: 71.3}
+  m_LocalPosition: {x: 277, y: 19.9, z: 96.4}
   m_LocalScale: {x: 3.9699, y: 3.9699, z: 3.9699}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -919,6 +922,7 @@ MonoBehaviour:
   deathVFX: {fileID: 5913231687247800477, guid: c8e92322d30ce5d44b4000895d3007db, type: 3}
   parent: {fileID: 352711987}
   pointsToIncrease: 1
+  hitPoints: 5
 --- !u!1 &1665096407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,6 +1026,7 @@ MonoBehaviour:
   deathVFX: {fileID: 5913231687247800477, guid: c8e92322d30ce5d44b4000895d3007db, type: 3}
   parent: {fileID: 352711987}
   pointsToIncrease: 1
+  hitPoints: 5
 --- !u!95 &1790710250
 Animator:
   serializedVersion: 4
@@ -1113,7 +1118,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790710248}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 118.8, y: 9.15, z: 79.5}
+  m_LocalPosition: {x: 205, y: 24.5, z: 491}
   m_LocalScale: {x: 3.9699, y: 3.9699, z: 3.9699}
   m_ConstrainProportionsScale: 0
   m_Children: []
