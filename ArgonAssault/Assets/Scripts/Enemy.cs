@@ -15,8 +15,16 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         scoreBoard = FindObjectOfType<Scoreboard>();
+        NewMethod();
 
     }
+
+    private void NewMethod()
+    {
+        Rigidbody rb = gameObject.AddComponent<Rigidbody>();
+        rb.useGravity = false;
+    }
+
     private void OnParticleCollision(GameObject other)
     {
         ProcessHit();
@@ -29,16 +37,16 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-    private void EnemyHitFlash()
-    {
-        GetComponent<MeshRenderer>().material.color = Color.red;
-        StartCoroutine(TurnBackToWhite(.1f));
-        IEnumerator TurnBackToWhite(float time){
-            yield return new WaitForSeconds(time);
-            GetComponent<MeshRenderer>().material.color = Color.white;
-        }
+    //private void EnemyHitFlash()
+    //{
+    //    GetComponent<MeshRenderer>().material.color = Color.red;
+    //    StartCoroutine(TurnBackToWhite(.1f));
+    //    IEnumerator TurnBackToWhite(float time){
+    //        yield return new WaitForSeconds(time);
+    //        GetComponent<MeshRenderer>().material.color = Color.white;
+    //    }
         
-    }
+    //}
 
     private void ProcessHit()
     {
@@ -49,7 +57,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-            EnemyHitFlash();
+           // EnemyHitFlash();
             hitPoints--;
         }
     }
