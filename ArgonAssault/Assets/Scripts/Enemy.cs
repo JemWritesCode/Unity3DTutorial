@@ -6,23 +6,26 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField] GameObject deathVFX;
-    [SerializeField] Transform parent;
+    [SerializeField] GameObject hitVFX;
     [SerializeField] int pointsToIncrease = 1;
     [SerializeField] int hitPoints = 3;
 
     Scoreboard scoreBoard;
+    GameObject parentGameObject;
 
     private void Start()
     {
         scoreBoard = FindObjectOfType<Scoreboard>();
-        NewMethod();
+        parentGameObject = GameObject.FindWithTag("SpawnAtRuntime");
+        AddRigidBody();
 
     }
 
-    private void NewMethod()
+    private void AddRigidBody()
     {
         Rigidbody rb = gameObject.AddComponent<Rigidbody>();
         rb.useGravity = false;
+        rb.isKinematic = true;
     }
 
     private void OnParticleCollision(GameObject other)
@@ -33,10 +36,17 @@ public class Enemy : MonoBehaviour
     private void KillEnemy()
     {
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
-        vfx.transform.parent = parent;
+        vfx.transform.parent = parentGameObject.transform;
         Destroy(gameObject);
     }
 
+    private void HitEnemy()
+    {
+        GameObject vfx = Instantiate(hitVFX, transform.position, Quaternion.identity);
+        vfx.transform.parent = parentGameObject.transform;
+    }
+
+    // doesn't work on the fancy spaceships cause of mesh renderer being at different levels. still good to konw.
     //private void EnemyHitFlash()
     //{
     //    GetComponent<MeshRenderer>().material.color = Color.red;
@@ -45,7 +55,7 @@ public class Enemy : MonoBehaviour
     //        yield return new WaitForSeconds(time);
     //        GetComponent<MeshRenderer>().material.color = Color.white;
     //    }
-        
+
     //}
 
     private void ProcessHit()
@@ -57,7 +67,7 @@ public class Enemy : MonoBehaviour
         }
         else
         {
-           // EnemyHitFlash();
+           HitEnemy();
             hitPoints--;
         }
     }
