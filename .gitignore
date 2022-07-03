@@ -58,4 +58,10 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
-ArgonAssault/Temp/
+ArgonAssault/[Ll]ibrary/
+ArgonAssault/[Tt]emp/
+ArgonAssault/[Oo]bj/
+ArgonAssault/[Bb]uild/
+ArgonAssault/[Bb]uilds/
+ArgonAssault/[Ll]ogs/
+ArgonAssault/[Mm]emoryCaptures/
