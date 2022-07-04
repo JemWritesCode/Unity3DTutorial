@@ -41,4 +41,5 @@ Just a heads up this isn't a very "fun/polished" game. Although I learned a LOT 
 
 There's also some issues with WebGL and playing all the sounds in my version of Unity. So some of the sounds when the admiral are speaking are missing. (A known Unity Bug)
 
+WASD to move, Left Mouse button to shoot.
 [Play The Game](https://sharemygame.com/@JemWritesCode/argon-assault)
