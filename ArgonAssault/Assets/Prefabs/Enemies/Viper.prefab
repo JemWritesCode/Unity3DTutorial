@@ -61,7 +61,7 @@ MonoBehaviour:
   deathFX: {fileID: 5913231687247800477, guid: c8e92322d30ce5d44b4000895d3007db, type: 3}
   hitVFX: {fileID: 5913231687247800477, guid: 4d8d842b7e77a6c4382154c2bbd1d3dc, type: 3}
   pointsToIncrease: 1
-  hitPoints: 30
+  hitPoints: 10
 --- !u!23 &4284810615760767022
 MeshRenderer:
   m_ObjectHideFlags: 0
