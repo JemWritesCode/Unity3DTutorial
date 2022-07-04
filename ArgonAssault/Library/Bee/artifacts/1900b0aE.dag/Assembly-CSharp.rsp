@@ -354,6 +354,7 @@
 "Assets/ImportedAssets/StarSparrow/Readme/Readme Files/Scripts/ReadmeStarSparrow.cs"
 "Assets/Scripts/CollisionHandler.cs"
 "Assets/Scripts/Enemy.cs"
+"Assets/Scripts/MusicPlayer.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Scoreboard.cs"
 "Assets/Scripts/SelfDestruct.cs"

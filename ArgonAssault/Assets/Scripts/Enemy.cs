@@ -35,6 +35,7 @@ public class Enemy : MonoBehaviour
 
     private void KillEnemy()
     {
+        scoreBoard.IncreaseScore(pointsToIncrease);
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
         vfx.transform.parent = parentGameObject.transform;
         Destroy(gameObject);
@@ -60,7 +61,6 @@ public class Enemy : MonoBehaviour
 
     private void ProcessHit()
     {
-        scoreBoard.IncreaseScore(pointsToIncrease);
         if (hitPoints == 0)
         {
             KillEnemy();
