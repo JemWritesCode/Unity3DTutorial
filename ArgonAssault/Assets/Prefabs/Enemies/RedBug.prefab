@@ -695,6 +695,7 @@ GameObject:
   - component: {fileID: 4510280764538716257}
   - component: {fileID: 4535166420654123711}
   - component: {fileID: 4527367728480579323}
+  - component: {fileID: 8022376958178315985}
   m_Layer: 0
   m_Name: RedBug
   m_TagString: Untagged
@@ -769,6 +770,22 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8022376958178315985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4503643414480249801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9ae728fa22dc6349a025a0f1b37f44e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathFX: {fileID: 5913231687247800477, guid: c8e92322d30ce5d44b4000895d3007db, type: 3}
+  hitVFX: {fileID: 5913231687247800477, guid: 4d8d842b7e77a6c4382154c2bbd1d3dc, type: 3}
+  pointsToIncrease: 1
+  hitPoints: 3
 --- !u!1 &5595176090024268790
 GameObject:
   m_ObjectHideFlags: 0
