@@ -9,15 +9,14 @@ public class EnemyMover : MonoBehaviour
 
     void Start()
     {
-        Debug.Log("Start here");
         StartCoroutine(FollowPath());
-        Debug.Log("finishing start");
     }
 
     IEnumerator FollowPath()
     {
         foreach (Waypoint waypoint in path)
         {
+            Debug.Log(waypoint.name);
             transform.position = waypoint.transform.position;
             yield return new WaitForSeconds(waitTime);
         }
