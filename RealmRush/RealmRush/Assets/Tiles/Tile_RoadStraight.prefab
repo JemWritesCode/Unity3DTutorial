@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: isPlacable
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2704787557787580870, guid: d35c0bb28cd49e94490080f6cd6b0a99, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4556972041004529941, guid: d35c0bb28cd49e94490080f6cd6b0a99, type: 3}
       propertyPath: m_text
       value: 0,0
