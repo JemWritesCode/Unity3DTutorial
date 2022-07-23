@@ -42,4 +42,24 @@ Just a heads up this isn't a very "fun/polished" game. Although I learned a LOT 
 There's also some issues with WebGL and playing all the sounds in my version of Unity. So some of the sounds when the admiral are speaking are missing. (A known Unity Bug)
 
 WASD to move, Left Mouse button to shoot.
+
 [Play The Game](https://sharemygame.com/@JemWritesCode/argon-assault)
+
+## Realm Rush 
+
+![Realm Rush Tower Defence Game](https://raw.githubusercontent.com/JemWritesCode/Unity3DTutorial/main/Screenshots/RealmRush%20v1.png)
+
+Tower defence, place ballistas down to keep the enemy wagons from stealing all your gold. Towers cost 75 gold to place. Click on the tile to place them along the path.
+
+[Play Version 1 of the Game -- Uses Tile/Prefab based pathfinding](https://sharemygame.com/@JemWritesCode/realm-rush-version-1-with-tile-prefab-based-pathfinding)
+
+Version 2 of the game uses algorithmic pathfinding.
+
+**Credit**
+"Crossing the Chasm" Kevin MacLeod (incompetech.com)
+Licensed under Creative Commons: By Attribution 4.0 License
+http://creativecommons.org/licenses/by/4.0/
+
+## FPS Game
+
+
