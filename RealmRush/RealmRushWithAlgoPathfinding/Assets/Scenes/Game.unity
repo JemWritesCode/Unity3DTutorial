@@ -13545,7 +13545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9f9cc760bf4dbe4980dcdc22bcb4974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startCoordinates: {x: 0, y: 0}
+  startCoordinates: {x: 4, y: 1}
   destinationCoordinates: {x: 12, y: 4}
 --- !u!1001 &1139408734
 PrefabInstance:
@@ -15833,6 +15833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gridSize: {x: 20, y: 20}
+  unityGridSize: 10
 --- !u!4 &1267107479
 Transform:
   m_ObjectHideFlags: 0
@@ -26107,6 +26108,10 @@ PrefabInstance:
     - target: {fileID: 2722615511004164462, guid: b63addd5c24a2a44c93a77308061cc4e, type: 3}
       propertyPath: m_Name
       value: ObjectPool
+      objectReference: {fileID: 0}
+    - target: {fileID: 2722615511004164463, guid: b63addd5c24a2a44c93a77308061cc4e, type: 3}
+      propertyPath: poolSize
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2722615511004164463, guid: b63addd5c24a2a44c93a77308061cc4e, type: 3}
       propertyPath: spawnTimer
