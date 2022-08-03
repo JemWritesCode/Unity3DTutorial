@@ -29,7 +29,7 @@ Land on the Green Square
 
 Three Levels
 
-I could have spent more time making 
+I could have spent more time making the background of the level stand out better. But it's not really worth tinkering with for a tutorial. 
 
 [Play The Game](https://sharemygame.com/@JemWritesCode/project-boost-result)
 
