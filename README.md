@@ -60,6 +60,7 @@ Version 2 of the game uses algorithmic pathfinding.
 Licensed under Creative Commons: By Attribution 4.0 License
 http://creativecommons.org/licenses/by/4.0/
 
-## FPS Game
+## FPS Game / Zombie Game
 
+[I made a separate repo for this game here.](https://github.com/JemWritesCode/ZombieRunner). This was so I could practice some of the github/unity workflow before my next game jam.
 
